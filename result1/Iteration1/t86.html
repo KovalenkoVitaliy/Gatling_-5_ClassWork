@@ -1,0 +1,243 @@
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Computers database</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="/assets/stylesheets/bootstrap.min.css"> 
+        <link rel="stylesheet" type="text/css" media="screen" href="/assets/stylesheets/main.css"> 
+    </head>
+    <body>
+        
+        <header class="topbar">
+            <h1 class="fill">
+                <a href="/">
+                    Play sample application &mdash; Computer database
+                </a>
+            </h1>
+        </header>
+        
+        <section id="main">
+            
+    
+    <h1>2,038 computers found</h1>
+
+    
+
+    <div id="actions">
+        
+         
+
+<form action="/computers" method="GET" >
+    
+            <input type="search" id="searchbox" name="f" value="" placeholder="Filter by computer name...">
+            <input type="submit" id="searchsubmit" value="Filter by name" class="btn primary">
+        
+</form>
+
+        
+        <a class="btn success" id="add" href="/computers/new">Add a new computer</a>
+        
+    </div>
+    
+    
+        
+        <table class="computers zebra-striped">
+            <thead>
+                <tr>
+                    
+    <th class="col2 header headerSortUp">
+        <a href="/computers?s=-2">Computer name</a>
+    </th>
+
+                    
+    <th class="col3 header ">
+        <a href="/computers?s=3">Introduced</a>
+    </th>
+
+                    
+    <th class="col4 header ">
+        <a href="/computers?s=4">Discontinued</a>
+    </th>
+
+                    
+    <th class="col5 header ">
+        <a href="/computers?s=5">Company</a>
+    </th>
+
+                </tr>
+            </thead>
+            <tbody>
+
+                
+                        <tr>
+                            <td><a href="/computers/288">Roadrunner</a></td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                IBM
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/529">SAM Coupé</a></td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/392">SSEC</a></td>
+                            <td>
+                                01 Jan 1948
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                IBM
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/346">ST BOOK</a></td>
+                            <td>
+                                01 Jan 1990
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/345">STacy</a></td>
+                            <td>
+                                01 Jan 1989
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/531">Samsung Galaxy Tab</a></td>
+                            <td>
+                                02 Sep 2010
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                Samsung Electronics
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/463">Sega Master System</a></td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/462">Sega Mega Drive</a></td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/445">Sharp Mebius NJ70A</a></td>
+                            <td>
+                                21 Apr 2009
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/169">Sinclair QL</a></td>
+                            <td>
+                                01 Jan 1984
+                            </td>
+                            <td>
+                                01 Jan 1986
+                            </td>
+                            <td>
+                                Sinclair Research Ltd
+                            </td>
+                        </tr>
+                    
+
+            </tbody>
+        </table>
+
+        <div id="pagination" class="pagination">
+            <ul>
+                
+                    <li class="prev">
+                        <a href="/computers?p=81">&larr; Previous</a>
+                    </li> 
+                
+                <li class="current">
+                    <a>Displaying 821 to 830 of 2038</a>
+                </li>
+                
+                    <li class="next">
+                        <a href="/computers?p=83">Next &rarr;</a>
+                    </li> 
+                
+            </ul>
+        </div>
+        
+    
+
+        
+
+        </section>
+        
+    </body>
+</html>
+
+
+            

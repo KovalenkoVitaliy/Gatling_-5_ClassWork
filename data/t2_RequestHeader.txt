@@ -1,0 +1,9 @@
+POST /sstel.asmx?MSTel-Client-Key=4g1XZMc9b%2bcQgDCn64RXEA%3d%3d&MSTel-MAC=oUlG6NvTb3A%3d HTTP/1.1
+Accept: text/*
+Accept-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+Host: t.urs.microsoft.com
+Content-Length: 619
+Connection: Keep-Alive
+Cache-Control: no-cache
+

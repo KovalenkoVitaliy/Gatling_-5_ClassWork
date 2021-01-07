@@ -1,0 +1,18 @@
+[t189]
+FileName2=t1_1_bootstrap.css
+RawStepEndTime=1585241990285
+RequestBodyFile=t189_RequestBody.txt
+RawStepName=computers_3
+ContentType=text/html
+URL1=http://computer-database.gatling.io/computers?p=185
+URL2=http://computer-database.gatling.io/assets/stylesheets/bootstrap.min.css
+URL3=http://computer-database.gatling.io/assets/stylesheets/main.css
+ResponseHeaderFile=t189_ResponseHeader.txt
+SnapshotXmlFile=snapshot_188.xml
+RequestHeaderFile=t189_RequestHeader.txt
+SaveSnapshotResources=1
+RawStepStartTime=1585241990217
+Total=3
+StepName=Url: computers_3
+FileName1=t189.html
+FileName3=t1_0_main.css

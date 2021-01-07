@@ -1,0 +1,139 @@
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Computers database</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="/assets/stylesheets/bootstrap.min.css"> 
+        <link rel="stylesheet" type="text/css" media="screen" href="/assets/stylesheets/main.css"> 
+    <script type="text/javascript" src="http://ie.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=6utNb0U7lfW-qf5V0Ye8bUilaqJF1Frus9cNf1uxO4D7g31HSbei8P5n4T5hmx3bG8MOY2Pq8XY5OqPfRtStLkraSwvhH3EMdQrlTaoI-lI" charset="UTF-8"></script></head>
+    <body>
+        
+        <header class="topbar">
+            <h1 class="fill">
+                <a href="/">
+                    Play sample application &mdash; Computer database
+                </a>
+            </h1>
+        </header>
+        
+        <section id="main">
+            
+    
+    <h1>2 computers found</h1>
+
+    
+
+    <div id="actions">
+        
+         
+
+<form action="/computers" method="GET" >
+    
+            <input type="search" id="searchbox" name="f" value="ASCI White" placeholder="Filter by computer name...">
+            <input type="submit" id="searchsubmit" value="Filter by name" class="btn primary">
+        
+</form>
+
+        
+        <a class="btn success" id="add" href="/computers/new">Add a new computer</a>
+        
+    </div>
+    
+    
+        
+        <table class="computers zebra-striped">
+            <thead>
+                <tr>
+                    
+    <th class="col2 header headerSortUp">
+        <a href="/computers?s=-2&amp;f=ASCI+White">Computer name</a>
+    </th>
+
+                    
+    <th class="col3 header ">
+        <a href="/computers?s=3&amp;f=ASCI+White">Introduced</a>
+    </th>
+
+                    
+    <th class="col4 header ">
+        <a href="/computers?s=4&amp;f=ASCI+White">Discontinued</a>
+    </th>
+
+                    
+    <th class="col5 header ">
+        <a href="/computers?s=5&amp;f=ASCI+White">Company</a>
+    </th>
+
+                </tr>
+            </thead>
+            <tbody>
+
+                
+                        <tr>
+                            <td><a href="/computers/311">ASCI White</a></td>
+                            <td>
+                                01 Jan 2001
+                            </td>
+                            <td>
+                                01 Jan 2006
+                            </td>
+                            <td>
+                                IBM
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/482">ASCI White</a></td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                        </tr>
+                    
+
+            </tbody>
+        </table>
+
+        <div id="pagination" class="pagination">
+            <ul>
+                
+                    <li class="prev disabled">
+                        <a>&larr; Previous</a>
+                    </li>
+                
+                <li class="current">
+                    <a>Displaying 1 to 2 of 2</a>
+                </li>
+                
+                    <li class="next disabled">
+                        <a>Next &rarr;</a>
+                    </li>
+                
+            </ul>
+        </div>
+        
+    
+
+        
+
+        </section>
+        
+    </body>
+</html>
+
+
+            

@@ -1,0 +1,243 @@
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Computers database</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="/assets/stylesheets/bootstrap.min.css"> 
+        <link rel="stylesheet" type="text/css" media="screen" href="/assets/stylesheets/main.css"> 
+    <script type="text/javascript" src="http://ie.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=cjd1U5t4OeDBh1mdhg683CfO5lnjVec-lCvPlGWGPQWa_p7umwjVr0jFe0gyWGI0JNz39WW-GZNB8g1gzQuCRps3uRvqB0hrwA3VHqdQ4tI" charset="UTF-8"></script></head>
+    <body>
+        
+        <header class="topbar">
+            <h1 class="fill">
+                <a href="/">
+                    Play sample application &mdash; Computer database
+                </a>
+            </h1>
+        </header>
+        
+        <section id="main">
+            
+    
+    <h1>883 computers found</h1>
+
+    
+
+    <div id="actions">
+        
+         
+
+<form action="/computers" method="GET" >
+    
+            <input type="search" id="searchbox" name="f" value="" placeholder="Filter by computer name...">
+            <input type="submit" id="searchsubmit" value="Filter by name" class="btn primary">
+        
+</form>
+
+        
+        <a class="btn success" id="add" href="/computers/new">Add a new computer</a>
+        
+    </div>
+    
+    
+        
+        <table class="computers zebra-striped">
+            <thead>
+                <tr>
+                    
+    <th class="col2 header headerSortUp">
+        <a href="/computers?s=-2">Computer name</a>
+    </th>
+
+                    
+    <th class="col3 header ">
+        <a href="/computers?s=3">Introduced</a>
+    </th>
+
+                    
+    <th class="col4 header ">
+        <a href="/computers?s=4">Discontinued</a>
+    </th>
+
+                    
+    <th class="col5 header ">
+        <a href="/computers?s=5">Company</a>
+    </th>
+
+                </tr>
+            </thead>
+            <tbody>
+
+                
+                        <tr>
+                            <td><a href="/computers/314">iPhone</a></td>
+                            <td>
+                                01 Jun 2007
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                Apple Inc.
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/513">iPhone 2G</a></td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/469">iPhone 3G</a></td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/470">iPhone 3GS</a></td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/523">iPhone 4</a></td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                Apple Inc.
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/574">iPhone 4S</a></td>
+                            <td>
+                                14 Oct 2011
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                Apple Inc.
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/484">lenovo thinkpad r400</a></td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/488">lenovo thinkpad r61</a></td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/490">lenovo thinkpad sl400</a></td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/493">lenovo thinkpad t400s</a></td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                        </tr>
+                    
+
+            </tbody>
+        </table>
+
+        <div id="pagination" class="pagination">
+            <ul>
+                
+                    <li class="prev">
+                        <a href="/computers?p=85">&larr; Previous</a>
+                    </li> 
+                
+                <li class="current">
+                    <a>Displaying 861 to 870 of 883</a>
+                </li>
+                
+                    <li class="next">
+                        <a href="/computers?p=87">Next &rarr;</a>
+                    </li> 
+                
+            </ul>
+        </div>
+        
+    
+
+        
+
+        </section>
+        
+    </body>
+</html>
+
+
+            

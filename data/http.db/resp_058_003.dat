@@ -1,0 +1,243 @@
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Computers database</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="/assets/stylesheets/bootstrap.min.css"> 
+        <link rel="stylesheet" type="text/css" media="screen" href="/assets/stylesheets/main.css"> 
+    <script type="text/javascript" src="http://ie.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=qihA9NKuh5Q4LMMeIMn-koGZivDwfKx1ps6l_pjYxLMulHpvSSBT7ECAn2z_9cEY_z33dVX_HLYKDpmHoqmenN9ZQzuvPwdmTBWO3XLfjzQ" charset="UTF-8"></script></head>
+    <body>
+        
+        <header class="topbar">
+            <h1 class="fill">
+                <a href="/">
+                    Play sample application &mdash; Computer database
+                </a>
+            </h1>
+        </header>
+        
+        <section id="main">
+            
+    
+    <h1>883 computers found</h1>
+
+    
+
+    <div id="actions">
+        
+         
+
+<form action="/computers" method="GET" >
+    
+            <input type="search" id="searchbox" name="f" value="" placeholder="Filter by computer name...">
+            <input type="submit" id="searchsubmit" value="Filter by name" class="btn primary">
+        
+</form>
+
+        
+        <a class="btn success" id="add" href="/computers/new">Add a new computer</a>
+        
+    </div>
+    
+    
+        
+        <table class="computers zebra-striped">
+            <thead>
+                <tr>
+                    
+    <th class="col2 header headerSortUp">
+        <a href="/computers?s=-2">Computer name</a>
+    </th>
+
+                    
+    <th class="col3 header ">
+        <a href="/computers?s=3">Introduced</a>
+    </th>
+
+                    
+    <th class="col4 header ">
+        <a href="/computers?s=4">Discontinued</a>
+    </th>
+
+                    
+    <th class="col5 header ">
+        <a href="/computers?s=5">Company</a>
+    </th>
+
+                </tr>
+            </thead>
+            <tbody>
+
+                
+                        <tr>
+                            <td><a href="/computers/858">egor123</a></td>
+                            <td>
+                                12 Dec 2011
+                            </td>
+                            <td>
+                                12 Dec 2011
+                            </td>
+                            <td>
+                                Hewlett-Packard
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/859">egor123</a></td>
+                            <td>
+                                12 Dec 2011
+                            </td>
+                            <td>
+                                12 Dec 2011
+                            </td>
+                            <td>
+                                Hewlett-Packard
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/860">egor123</a></td>
+                            <td>
+                                12 Dec 2011
+                            </td>
+                            <td>
+                                12 Dec 2011
+                            </td>
+                            <td>
+                                Hewlett-Packard
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/861">egor123</a></td>
+                            <td>
+                                12 Dec 2011
+                            </td>
+                            <td>
+                                12 Dec 2011
+                            </td>
+                            <td>
+                                Hewlett-Packard
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/868">home</a></td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/88">iBook</a></td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                Apple Inc.
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/244">iBook G3</a></td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                Apple Inc.
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/25">iMac</a></td>
+                            <td>
+                                01 Jan 1998
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                Apple Inc.
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/203">iMac G5</a></td>
+                            <td>
+                                31 Aug 2004
+                            </td>
+                            <td>
+                                 <em>-</em> 
+                            </td>
+                            <td>
+                                Apple Inc.
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><a href="/computers/512">iPad</a></td>
+                            <td>
+                                01 Jan 2010
+                            </td>
+                            <td>
+                                02 Mar 2011
+                            </td>
+                            <td>
+                                Apple Inc.
+                            </td>
+                        </tr>
+                    
+
+            </tbody>
+        </table>
+
+        <div id="pagination" class="pagination">
+            <ul>
+                
+                    <li class="prev">
+                        <a href="/computers?p=84">&larr; Previous</a>
+                    </li> 
+                
+                <li class="current">
+                    <a>Displaying 851 to 860 of 883</a>
+                </li>
+                
+                    <li class="next">
+                        <a href="/computers?p=86">Next &rarr;</a>
+                    </li> 
+                
+            </ul>
+        </div>
+        
+    
+
+        
+
+        </section>
+        
+    </body>
+</html>
+
+
+            

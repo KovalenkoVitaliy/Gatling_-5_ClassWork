@@ -1,0 +1,9 @@
+[parameter:Page]
+BlockSize="150"
+Format="%01d"
+GenerateNewVal="EachOccurrence"
+OriginalValue=""
+OutOfRangePolicy="ContinueWithLast"
+ParamName="Page"
+StartValue="2"
+Type="Unique"

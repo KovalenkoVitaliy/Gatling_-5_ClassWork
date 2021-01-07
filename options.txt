@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Admin\Desktop\Task_5_25.03(Kovalenko V)ProbaPera
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\admin\desktop\task_5_25.03(kovalenko v)probapera\\logfile.log
+c:\users\admin\desktop\task_5_25.03(kovalenko v)probapera\\combined_Task_5_25.03(Kovalenko V)ProbaPera.c
+c:\users\admin\desktop\task_5_25.03(kovalenko v)probapera\\pre_cci.c

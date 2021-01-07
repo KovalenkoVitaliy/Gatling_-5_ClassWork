@@ -1,0 +1,232 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "ua-cpu",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "cache-control",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": true,
+      "type": "text/xml"
+    },
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/css"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 7,
+    "RecordedBrowser": "Internet Explorer",
+    "RecordingDate": "РјР°СЂ-25-2020",
+    "RecordingDuration": 42328,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1585127621,
+    "RecordingType": "Browser",
+    "TotalBytesReceived": 118120,
+    "TotalBytesSent": 4367,
+    "TotalRequests": 13,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "yandex.ru",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "213.180.204.63",
+          "IncludeInScript": true,
+          "Name": "suggest.yandex.ru",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "",
+              "DownloadTime": 15,
+              "EventId": 241,
+              "HttpStatus": 400,
+              "Size": 20,
+              "URL": "https://suggest.yandex.ru/suggest-ff.cgi"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-SHA",
+          "SSLVersion": "TLS"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "microsoft.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "152.199.19.161",
+          "IncludeInScript": true,
+          "Name": "iecvlist.microsoft.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/xml",
+              "DownloadTime": 46,
+              "EventId": 269,
+              "HttpStatus": 200,
+              "Size": 26204,
+              "URL": "https://iecvlist.microsoft.com/IE11/1478281996/iecompatviewlist.xml"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES256-SHA",
+          "SSLVersion": "TLS"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "gatling.io",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "35.205.124.134",
+          "IncludeInScript": true,
+          "Name": "computer-database.gatling.io",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 63,
+              "EventId": 290,
+              "HttpStatus": 200,
+              "Size": 7637,
+              "URL": "http://computer-database.gatling.io/computers"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 63,
+              "EventId": 288,
+              "HttpStatus": 303,
+              "Size": 0,
+              "URL": "http://computer-database.gatling.io/computers/482"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 62,
+              "EventId": 278,
+              "HttpStatus": 200,
+              "Size": 5742,
+              "URL": "http://computer-database.gatling.io/computers/482"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 62,
+              "EventId": 229,
+              "HttpStatus": 200,
+              "Size": 7663,
+              "URL": "http://computer-database.gatling.io/computers?p=87"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 62,
+              "EventId": 219,
+              "HttpStatus": 200,
+              "Size": 7587,
+              "URL": "http://computer-database.gatling.io/computers?p=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 62,
+              "EventId": 206,
+              "HttpStatus": 404,
+              "Size": 1910,
+              "URL": "http://computer-database.gatling.io/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 63,
+              "EventId": 198,
+              "HttpStatus": 200,
+              "Size": 5760,
+              "URL": "http://computer-database.gatling.io/computers/311"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 63,
+              "EventId": 188,
+              "HttpStatus": 404,
+              "Size": 1910,
+              "URL": "http://computer-database.gatling.io/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/css",
+              "DownloadTime": 47,
+              "EventId": 184,
+              "HttpStatus": 200,
+              "Size": 824,
+              "URL": "http://computer-database.gatling.io/assets/stylesheets/main.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/css",
+              "DownloadTime": 187,
+              "EventId": 180,
+              "HttpStatus": 200,
+              "Size": 45379,
+              "URL": "http://computer-database.gatling.io/assets/stylesheets/bootstrap.min.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 63,
+              "EventId": 176,
+              "HttpStatus": 200,
+              "Size": 7484,
+              "URL": "http://computer-database.gatling.io/computers"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 1
+}
